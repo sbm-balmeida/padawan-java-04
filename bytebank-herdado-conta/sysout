@@ -1,0 +1,30 @@
+System.out.println()
+
+O que é?
+Visibilidade?
+Acesso?
+Pacote?
+
+public class System {
+	public static ????? out
+}
+
+				System.out.println("Alura");
+				
+System
+	- é uma classe,
+	- vem do pacote java.lang,
+	- com visibilidade/acesso public.
+
+out
+	- é um atributo, 
+	- com visibilidade/acesso public, 
+	- é uma referencia, 
+	- tem acesso static(é chamado a partir de uma conta).
+
+println
+	- é um método(pq metodos sempre tem parenteses), 
+	- public, 
+	- não static(é chamado a partir de uma referencia),
+	- sobrecarga(mesmo método mas varia nos parametros dos metodos),
+	- não joga excecoes do tipo checked.
